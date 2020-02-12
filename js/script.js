@@ -11,12 +11,11 @@ $.ajax({
     var i;
     for (i=0; i<data.length; i++){
       document.getElementById('result').innerHTML +=
-      '<div class="col col-sm-6 col-md-4 col-lg-4 border border-secondary rounded mx-1 my-1 px-4 mx-4">' +
-      '<h1> Name: ' + data[i].first_name + '</h1>'+
-      '<h3> Gender: ' + data[i].gender + '</h3>' +
-      '<h3> Animal: ' + data[i].animal + '</h3>' +
-       '<h3> Holiday: ' + data[i].holiday + '<h3>' +
-       '<h3> Color: ' + data[i].color + '<h3>' +
+      '<div class="col col-sm-6 col-md-4 col-lg-4 border border-info rounded mx-3 my-3 px-5 mx-5 pt-4 pb-4">' +
+      '<h2>' + data[i].first_name + '</h2>'+
+      '\'My gender is ' + data[i].gender + ' and my favourite colour is ' + data[i].color + '.</p>' +
+      'The ' + data[i].animal + ' is my favourite animal.' +
+       ' My dream holiday location is ' + data[i].holiday + ' and I would love to go there one day.\'' +
       '</div>';
     }
 

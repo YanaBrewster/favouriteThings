@@ -1,3 +1,21 @@
 *{
   box-sizing: border-box;
 }
+
+h1, h2 {
+font-family: 'Pacifico', cursive;
+}
+
+p {
+font-family: 'Open Sans', sans-serif;
+}
+
+.border {
+  border-width: 3px !important;
+}
+
+.container {
+  text-align: center !important;
+  margin: 0 auto !important;
+  padding-left: 10%;
+}
